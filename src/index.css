@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@media print {
+  header, nav, button, .no-print {
+    display: none !important;
+  }
+  body {
+    background: white !important;
+    color: black !important;
+    font-size: 11pt !important;
+  }
+  .bg-slate-50, .bg-slate-100, .bg-indigo-50, .bg-emerald-50, .bg-amber-50, .bg-blue-50 {
+    background-color: transparent !important;
+  }
+  table {
+    page-break-inside: auto;
+  }
+  tr {
+    page-break-inside: avoid;
+    page-break-after: auto;
+  }
+}

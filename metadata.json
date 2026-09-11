@@ -1,0 +1,6 @@
+{
+  "name": "Calculadora de Cabeza Dinámica Total (TDH) para Bombas",
+  "description": "Calculadora de Cabeza Dinámica Total (TDH), pérdidas por fricción y curva del sistema para bombas centrífugas con fluidos viscosos y constructor de ruta por niveles.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
